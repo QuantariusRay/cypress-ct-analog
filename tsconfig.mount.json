@@ -6,8 +6,8 @@
     "declaration": true,
     "lib": ["DOM", "ES6"],
     "esModuleInterop": true,
-    "strict": true,
+    "strict": false,
     "types": ["cypress"]
   },
-  "include": ["index.tsx"]
+  "include": ["index.ts"]
 }
