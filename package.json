@@ -1,6 +1,6 @@
 {
   "name": "cypress-ct-analog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Framework Definition for AnalogJS with Cypress Component Testing",
   "exports": {
     "node": "./definition.js",
@@ -31,5 +31,20 @@
   },
   "dependencies": {
     "@cypress/mount-utils": "^4.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantariusRay/cypress-ct-analog.git"
+  },
+  "keywords": [
+    "cypress",
+    "analog"
+  ],
+  "author": "Q Ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuantariusRay/cypress-ct-analog/issues"
+  },
+  "homepage": "https://github.com/QuantariusRay/cypress-ct-analog#readme"
 }

@@ -1,11 +1,10 @@
-A template to use as a starting point when building a Component Framework Definition.
+A simple Cypress Framework Definition for Analog.JS
 
-An completed example for [Solid.js](https://www.solidjs.com/) is [available here](https://github.com/lmiller1990/cypress-ct-solid-js).
+See [the documentation](https://docs.cypress.io/guides/component-testing/third-party-definitions#List-of-Framework-Definitions) to learn how to author a Framework Definition for your favorite library!
 
-See [the documentation](https://docs.cypress.io/guides/component-testing/third-party-definitions#List-of-Framework-Definitions) to Learn how to author a Framework Definition for your favorite library!
+In your Analog.js project:
 
-Once you've written your definition:
+1. npm install cypress cypress-ct-analog
+2. At the top of your `cypress/support/component.ts` add `import '@angular/compiler'`
+3. Run `cypress open` and select AnalogJS as the framework. Cypress will do the rest.
 
-- `npm run build` to build it
-- update `name` in `package.json`
-- publish!
